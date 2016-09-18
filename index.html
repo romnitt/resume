@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/tooltipster.bundle.min.css">
+
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
+    <script type="text/javascript" src="js/tooltipster.bundle.min.js"></script>
+	
+	<!--[if lt IE 9]>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+
+	<![endif]-->
+    
+    <script>
+        $(document).ready(function() {
+            $('.tooltip').tooltipster({
+                
+                trigger: 'click',
+                arrow: false,
+                
+            });
+        });
+    </script>
+
+	<title></title>
+
+</head>
+<body>
+    
+    Ahojenky
+    <br>
+    <br>
+    <a href="#" class="tooltip" title="Text v tooltipe vole">Tooltip!</a>
+
+</body>
+</html>
