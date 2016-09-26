@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800&subset=latin-ext" rel="stylesheet">
+
+
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	
+	
+	<!--[if lt IE 9]>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+
+	<![endif]-->
+    
+    
+    <style>
+    
+        * {
+            
+            box-sizing: border-box;
+        }
+        
+        .com-wrap {
+            
+            display: block;
+            position: relative;
+            width: 3em;
+            height: 3em;
+            
+            /* Doplnkove */
+            
+            margin: 0 auto;
+            top: 50vh;
+            margin-top: -1.5em;
+        }
+        
+        .com-ball {
+            
+            display: block;
+            position: absolute;
+            width: 1.5em;
+            height: 1.5em;
+            
+            border-radius: 50%;
+            box-shadow: 0 2px 3px rgba(0,0,0,0.15);
+            
+            /* Doplnkove */
+            
+            background: red;
+            left: 0.75em;
+            top: 0.75em;
+        }
+        
+        .com-pulse {
+            
+            display: block;
+            position: absolute;
+            width: 1.5em;
+            height: 1.5em;
+            
+            border-radius: 50%;
+            border: 1px solid rgba(255,0,0,0.2);;
+            
+            animation-name: spread, fade;
+            animation-duration: 2s, 2s;
+            animation-iteration-count: infinite, infinite;
+            animation-timing-function: ease-out, ease-out;
+            
+            /* Doplnkove */
+            
+            background: rgba(255,0,0,0.2);
+            left: 0.75em;
+            top: 0.75em;
+        }
+        
+        @keyframes spread {
+            
+            0% {
+                
+                transform: scale(1);
+            }
+            
+            40% {
+                
+                transform: scale(2);
+            }
+            
+            100% {
+                
+                transform: scale(2);
+            }
+        }
+        
+        @keyframes fade {
+            
+            0% {
+                
+                opacity: 1;
+            }
+            
+            40% {
+                
+                opacity: 0;
+            }
+            
+            100% {
+                
+                opacity: 0;
+            }
+        }
+        
+    
+    
+    
+    </style>
+    
+    
+	<title>Pulse</title>
+
+</head>
+<body>
+
+    <div class="com-wrap">
+    
+        <div class="com-pulse"></div>
+        <div class="com-ball"></div>
+    
+    </div>
+
+    
+
+</body>
+</html>
