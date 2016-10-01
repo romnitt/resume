@@ -8,11 +8,12 @@
 
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/tooltipster.bundle.min.css">
 
-    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     
-    <script type="text/javascript" src="js/tooltipster.bundle.min.js"></script>
+<!--    <script type="text/javascript" src="js/slick.min.js"></script>-->
+    <script type="text/javascript" src="js/slick.js"></script>
+    <script type="text/javascript" src="js/rotator.min.js"></script>
 	
 	<!--[if lt IE 9]>
 
@@ -20,27 +21,223 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
 
 	<![endif]-->
-    
-    <script>
-        $(document).ready(function() {
-            $('.tooltip').tooltipster({
-                
-                trigger: 'click',
-                arrow: false,
-                
-            });
-        });
-    </script>
 
-	<title></title>
+	<title>Resume</title>
 
 </head>
+    
 <body>
     
-    Ahojenky
-    <br>
-    <br>
-    <a href="#" class="tooltip" title="Text v tooltipe vole">Tooltip!</a>
+    <section class="contact">
+        
+        <a href="javascript:void(0)">Close</a>
+        
+        <ul>
+        
+            <li><a href="#">Linkedin</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Mail<br><span>yo&#64;visuxal.com</span></a></li>
+        
+        </ul>        
+    
+    </section>
+    
+    <section class="open-comments">
+             
+            <div class="comment-slider">
+
+                <div class="comment-detail">lorem ipsum dolor sit</div>
+                <div class="comment-detail">dolor sit</div>
+                <div class="comment-detail">amet daco</div>
+                <div class="comment-detail">daco dalsie</div>
+
+            </div>
+  
+            
+        <a id="close-comments" href="javascript:void(0)">Close</a>
+        
+    </section>
+    
+    <div id="comments-bcg"></div>
+    
+    
+    
+    <header>
+    
+        <a href="#">Contacts</a>
+        
+    </header>
+    
+    
+    <nav>
+        
+    
+        <ul class="slick-nav">
+            
+            <li><a href="javascript:void(0)" id="slide-resume">Resume</a></li>
+            
+            <li><a href="javascript:void(0)" id="slide-careers">Careers &amp; Edu</a></li>
+            
+            <li><a href="javascript:void(0)" id="slide-facts">Fun Facts</a></li>
+            
+        </ul>
+        
+        <div class="nav-progress"></div>
+        
+    </nav>
+    
+    
+ 
+    
+    
+    <main class="slider">
+        
+        <div class="resume">
+        
+            
+            <!-- ---------- Comments ---------- -->
+    
+    
+            <div class="comment" id="com1"><div class="pulse"></div><a href="javascript:void(0)">1</a></div>
+
+            <div class="comment" id="com2"><div class="pulse del05"></div><a href="javascript:void(0)">2</a></div>
+            
+            
+            <!-- ---------- Comments End ---------- -->
+            
+            <section class="howto">
+        
+                <div class="comment big">
+
+                    <div class="pulse"></div>
+                    <a href="#"></a>
+
+                </div>
+
+                <p class="note">Tap on these.</p>
+    
+            </section>
+
+    
+            <h1><span class="rotate">creactive, visuxal, csserious</span><br>designer</h1>
+            
+            <section class="opening">
+            
+                <p>Heyyy, I’m Roman.<br>A digital experience designer with creative background, coding skills and a master’s degree in psychology.</p>
+                
+                <a href="javascript:void(0)" class="button">Download Resume</a>
+                <p class="note"> PDF &#40;12.8 kb&#41;</p>
+            
+            </section>
+            
+            
+            <section class="next">
+                
+                <p>Where to next:</p>
+                
+                <a id="next-careers" href="javascript:void(0)">Careers &amp; Edu<br><span></span></a>
+            
+            </section>
+                    
+        </div>
+        
+        
+        <div class="careers">
+        
+            <section class="jobs">
+                
+                <h2>Careers</h2>
+                
+                <div class="job">
+                
+                    <h3>UX Designer &amp; Dev Team Leader</h3>
+                    <a href="#">TRIAD</a>
+                    <p class="duration">2015 - Present</p>
+                    
+                    <p class="job-desc">Leading web design process during <span class="highlight">digital ad</span> campaigns targeting <span class="highlight">millions of consumers</span> across Europe and Asia.</p>
+                    
+                    <p class="job-desc"><span class="highlight">Managing</span> web development team of <span class="highlight">5 to 10 people,</span> coordinating dev with designers, copywriters and production staff.</p>
+                    
+                    <p class="job-desc">Co-responsible for introducing new <span class="highlight">internal processes,</span> effectivity improvements and self promo in a 70+ people agency.</p>
+                
+                </div>
+                
+                
+                <div class="job">
+                
+                    <h3>UX Designer &amp; Dev Team Leader</h3>
+                    <a href="#">TRIAD</a>
+                    <p class="duration">2015 - Present</p>
+                    
+                    <p class="job-desc">Leading web design process during <span class="highlight">digital ad</span> campaigns targeting <span class="highlight">millions of consumers</span> across Europe and Asia.</p>
+                    
+                    <p class="job-desc"><span class="highlight">Managing</span> web development team of <span class="highlight">5 to 10 people,</span> coordinating dev with designers, copywriters and production staff.</p>
+                    
+                    <p class="job-desc">Co-responsible for introducing new <span class="highlight">internal processes,</span> effectivity improvements and self promo in a 70+ people agency.</p>
+                
+                </div>
+                
+                
+                <div class="job">
+                
+                    <h3>UX Designer &amp; Dev Team Leader</h3>
+                    <a href="#">TRIAD</a>
+                    <p class="duration">2015 - Present</p>
+                    
+                    <p class="job-desc">Leading web design process during <span class="highlight">digital ad</span> campaigns targeting <span class="highlight">millions of consumers</span> across Europe and Asia.</p>
+                    
+                    <p class="job-desc"><span class="highlight">Managing</span> web development team of <span class="highlight">5 to 10 people,</span> coordinating dev with designers, copywriters and production staff.</p>
+                    
+                    <p class="job-desc">Co-responsible for introducing new <span class="highlight">internal processes,</span> effectivity improvements and self promo in a 70+ people agency.</p>
+                
+                </div>
+            
+            </section>
+            
+            
+            <section class="edu">
+            
+            
+            </section>
+            
+            
+            <section class="next">
+                
+                <p>Where to next:</p>
+                
+                <a id="next-facts" href="javascript:void(0)">Fun Facts<br><span></span></a>
+            
+            </section>
+        
+        </div>
+        
+        
+        <div class="facts">
+        
+            <h2>Fun Facts</h2>
+            
+            <div class="swipenav">
+            
+                <div><a href="#">Useful Stuff</a></div>
+                <div><a href="#">Interests</a></div>
+                <div><a href="#">Recognitions</a></div>
+                <div><a href="#">Side Projects</a></div>
+                <div><a href="#">Useless Stuff</a></div>
+            
+            </div>
+            
+        </div>
+            
+    
+    </main>
+  
+    
+ 
+      
+
+    <script type="text/javascript" src="js/script.js"></script>
+    
+    
 
 </body>
 </html>
